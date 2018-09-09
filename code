@@ -1,0 +1,341 @@
+import java.util.Scanner;
+class Main {
+  public static void main(String[] args) {
+    Scanner in = new Scanner (System.in);
+    String y;
+    String f;//first letter
+    String s;//second letter
+    String t;//third letter
+    String h;//fourth letter
+    System.out.println("This program will spell out the first four letters of your name please type in lower case");
+
+    System.out.println("enter the first letter of your name: ");
+    f = in.nextLine();
+
+    System.out.println("enter the second letter of your name: ");
+    s = in.nextLine();
+
+    System.out.println("enter the third letter of your name: ");
+    t = in.nextLine();
+
+    System.out.println("enter the fourth letter of your name: ");
+    h = in.nextLine();
+
+    if (f.equals("a")){
+      f = (" .-");
+    }
+    if (f.equals("b")){
+      f = ("  -...");
+    }
+    if (f.equals("c")){
+      f = (" -.-.");
+    }
+    if (f.equals("d")){
+      f = (" -..");
+    }
+    if (f.equals("e")){
+      f = ("  .");
+    }
+    if (f.equals("f")){
+      f = (" ..-.");
+    }
+    if (f.equals("g")){
+      f = (" --.");
+    }
+    if (f.equals("h")){
+      f = ("  ....");
+    }
+    if (f.equals("i")){
+      f = (" ..");
+    }
+    if (f.equals("j")){
+      f = (" .---");
+    }
+    if (f.equals("k")){
+      f = ("  -.-");
+    }
+    if (f.equals("l")){
+      f = (" .-..");
+    }
+     if (f.equals("m")){
+      f = (" --");
+    }
+    if (f.equals("n")){
+      f = (" -.");
+    }
+    if (f.equals("o")){
+      f = ("  ---");
+    }
+    if (f.equals("p")){
+      f = (" .--.");
+    }
+    if (f.equals("q")){
+      f = (" --.-");
+    }
+    if (f.equals("r")){
+      f = ("  .-.");
+    }
+    if (f.equals("s")){
+      f = (" ...");
+    }
+    if (f.equals("t")){
+      f = (" -");
+    }
+    if (f.equals("u")){
+      f = ("  ..--");
+    }
+    if (f.equals("v")){
+      f = (" ...-");
+    }
+     if (f.equals("w")){
+      f = (" .--");
+    }
+    if (f.equals("x")){
+      f = (" -..-");
+    }
+    if (f.equals("y")){
+      f = ("  -.--");
+    }
+    if (f.equals("z")){
+      f = (" --..");
+    }
+    //for second letter
+    if (s.equals("a")){
+      s = (" .-");
+    }
+    if (s.equals("b")){
+      s = ("  -...");
+    }
+    if (s.equals("c")){
+      s = (" -.-.");
+    }
+    if (s.equals("d")){
+      s = (" -..");
+    }
+    if (s.equals("e")){
+      s = ("  .");
+    }
+    if (s.equals("f")){
+      s = (" ..-.");
+    }
+    if (s.equals("g")){
+      s = (" --.");
+    }
+    if (s.equals("h")){
+      s = ("  ....");
+    }
+    if (s.equals("i")){
+      s = (" ..");
+    }
+    if (s.equals("j")){
+      s = (" .---");
+    }
+    if (s.equals("k")){
+      s = ("  -.-");
+    }
+    if (s.equals("l")){
+      s = (" .-..");
+    }
+     if (s.equals("m")){
+      s = (" --");
+    }
+    if (s.equals("n")){
+      s = (" -.");
+    }
+    if (s.equals("o")){
+      s = ("  ---");
+    }
+    if (s.equals("p")){
+      s = (" .--.");
+    }
+    if (s.equals("q")){
+      s = (" --.-");
+    }
+    if (s.equals("r")){
+      s = ("  .-.");
+    }
+    if (s.equals("s")){
+      s = (" ...");
+    }
+    if (s.equals("t")){
+      s = (" -");
+    }
+    if (s.equals("u")){
+      s = ("  ..--");
+    }
+    if (s.equals("v")){
+      s = (" ...-");
+    }
+     if (s.equals("w")){
+      s = (" .--");
+    }
+    if (s.equals("x")){
+      s = (" -..-");
+    }
+    if (s.equals("y")){
+      s = ("  -.--");
+    }
+    if (s.equals("z")){
+      s = (" --..");
+    }
+    //for third letter
+    if (t.equals("a")){
+      t = (" .-");
+    }
+    if (t.equals("b")){
+      t = ("  -...");
+    }
+    if (t.equals("c")){
+      t = (" -.-.");
+    }
+    if (t.equals("d")){
+      t = (" -..");
+    }
+    if (t.equals("e")){
+      t = ("  .");
+    }
+    if (t.equals("f")){
+      t = (" ..-.");
+    }
+    if (t.equals("g")){
+      t = (" --.");
+    }
+    if (t.equals("h")){
+      t = ("  ....");
+    }
+    if (t.equals("i")){
+      t = (" ..");
+    }
+    if (t.equals("j")){
+      t = (" .---");
+    }
+    if (t.equals("k")){
+      t = ("  -.-");
+    }
+    if (t.equals("l")){
+      t = (" .-..");
+    }
+     if (t.equals("m")){
+      t = (" --");
+    }
+    if (t.equals("n")){
+      t = (" -.");
+    }
+    if (t.equals("o")){
+      t = ("  ---");
+    }
+    if (t.equals("p")){
+      t = (" .--.");
+    }
+    if (t.equals("q")){
+      t = (" --.-");
+    }
+    if (t.equals("r")){
+      t = ("  .-.");
+    }
+    if (t.equals("s")){
+      t = (" ...");
+    }
+    if (t.equals("t")){
+      t = (" -");
+    }
+    if (t.equals("u")){
+      t = ("  ..--");
+    }
+    if (t.equals("v")){
+      t = (" ...-");
+    }
+     if (t.equals("w")){
+      t = (" .--");
+    }
+    if (t.equals("x")){
+      t = (" -..-");
+    }
+    if (t.equals("y")){
+      t = ("  -.--");
+    }
+    if (t.equals("z")){
+      t = (" --..");
+    }
+    //for fourth letter
+    if (h.equals("a")){
+      h = (" .-");
+    }
+    if (h.equals("b")){
+      h = ("  -...");
+    }
+    if (h.equals("c")){
+      h = (" -.-.");
+    }
+    if (h.equals("d")){
+      h = (" -..");
+    }
+    if (h.equals("e")){
+      h = ("  .");
+    }
+    if (h.equals("f")){
+      h = (" ..-.");
+    }
+    if (h.equals("g")){
+      h = (" --.");
+    }
+    if (h.equals("h")){
+      h = ("  ....");
+    }
+    if (h.equals("i")){
+      h = (" ..");
+    }
+    if (h.equals("j")){
+      h = (" .---");
+    }
+    if (h.equals("k")){
+      h = ("  -.-");
+    }
+    if (h.equals("l")){
+      h = (" .-..");
+    }
+     if (h.equals("m")){
+      h = (" --");
+    }
+    if (h.equals("n")){
+      h = (" -.");
+    }
+    if (h.equals("o")){
+      h = ("  ---");
+    }
+    if (h.equals("p")){
+      h = (" .--.");
+    }
+    if (h.equals("q")){
+      h = (" --.-");
+    }
+    if (h.equals("r")){
+      h = ("  .-.");
+    }
+    if (h.equals("s")){
+      h = (" ...");
+    }
+    if (h.equals("t")){
+      h = (" -");
+    }
+    if (h.equals("u")){
+      h = ("  ..--");
+    }
+    if (h.equals("v")){
+      h = (" ...-");
+    }
+     if (h.equals("w")){
+      h = (" .--");
+    }
+    if (h.equals("x")){
+      h = (" -..-");
+    }
+    if (h.equals("y")){
+      h = ("  -.--");
+    }
+    if (h.equals("z")){
+      h = (" --..");
+    }
+    System.out.println(f+s+t+h);
+  }
+}
